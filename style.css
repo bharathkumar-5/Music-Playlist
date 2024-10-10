@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-left: 1.5%;
+    max-width: 97%;
+    margin-top: 15px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 header {
@@ -28,7 +32,7 @@ form label {
 form input {
     margin-bottom: 0.5rem;
     padding: 0.5rem;
-    width: 100%;
+    width: 30%;
 }
 
 button {
@@ -56,9 +60,25 @@ button:hover {
 
 #song-list button {
     background-color: #dc3545;
+    margin-left: 20px;
     border: none;
 }
 
 #song-list button:hover {
     background-color: #c82333;
+}
+
+#genre-filter {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#add-song>h2{
+    margin-left: 8%;
+}
+#add-song{
+    margin-left: 38%;
+}
+#add-song1{
+    margin-left: 35px;
+    margin-bottom: 35px;
 }
